@@ -1,0 +1,513 @@
+/* Reset margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Add styling for the .active class */
+nav a.active {
+  color: #38bdf8;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9fafb;
+  height: 112px;
+  padding: 0 20px;
+}
+
+header h1 {
+  font-style: italic;
+  font-size: 55px;
+  color: rgb(55, 65, 81);
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(55, 65, 81);
+}
+
+.main {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel-caption {
+  height: 150px;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  text-align: left;
+}
+
+.carousel-caption h2{
+  font-size: 60px;
+}
+
+.carousel-caption p{
+  font-size: 16px;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: auto;
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next {
+  right: 0;
+}
+
+
+/* featured */
+
+.featured-products {
+  padding-top: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.featured-products h2{
+  text-align:center;
+}
+
+
+
+/* Products details page */
+
+.img-product-details {
+  max-width: 500px;
+  max-height: 350px;
+}
+
+.container_productdetails p {
+  font-size: 14px;
+}
+
+
+/* Search*/
+
+.search-form {
+  position: relative;
+  width: 130px;
+}
+
+.search-input {
+  border: 1px solid #ccc;
+  width: 130px;
+  height: 24px;
+  border-radius: 4px 4px 4px 4px;
+  outline: none;
+  font-size: 1rem;
+  padding-right: 30px; /* add padding equal to the width of the search button */
+}
+
+.search-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 5px;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+}
+
+
+
+
+
+/* why choose us  */
+.container_1 {
+  padding-top:20px;
+  width: 80%;
+  margin: auto;
+}
+
+.sections {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+
+
+/* team  */
+.team {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.team h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+.team p {
+  color: #666;
+  margin-bottom: 50px;
+}
+
+.team-member {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: calc(100% / 3 - 40px);
+  box-sizing: border-box;
+}
+
+.team-member h2 {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.team-member p {
+  color: #666;
+}
+
+
+
+
+/* offer  */
+
+.sub-content{
+  /* Adjust the path as needed */
+  background-image: url('https://plus.unsplash.com/premium_photo-1663054524168-60a30950acb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'); 
+  background-size: cover; /* Cover the entire div */
+  background-attachment: fixed; /* Create the parallax effect */
+  background-position: center; /* Center the image */
+  height: 350px; /* Set a height for your div */
+  color: white; /* Set the text color so it's visible on the background */
+  text-align: center; /* Center the text horizontally */
+  position: relative; /* Add relative positioning so the overlay is positioned relative to this div */
+}
+
+.sub-content::before {
+  content: ""; /* This is necessary for the pseudo element to work */
+  position: absolute; /* Absolute positioning */
+  top: 0; /* Position the overlay at the top  */
+  left: 0; /* Position the overlay at the left */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+  z-index: 1; /* Lower z-index */
+}
+
+.offer {
+  text-align: left;
+  margin-top: 50px;
+  width: 80%;
+  margin: auto;
+  padding-top:40px;
+  position: relative; /* Add relative positioning */
+  z-index: 2; /* Higher z-index */
+}
+
+.offer h1 {
+  text-align: left;
+}
+
+.offer h2 {
+  margin-top: 30px;
+}
+
+.offer p {
+  margin-top: 20px;
+  max-width: 600px;
+}
+
+.shop-now {
+  margin-top: 20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.about_us{
+    width: 100%;
+    height: 350px;
+    background-image: url('https://images.unsplash.com/photo-1622037022824-0c71d511ef3c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'); 
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the image */
+
+    color: white; /* Set the text color so it's visible on the background */
+    text-align: center; /* Center the text horizontally */
+    position: relative; /* Add relative positioning so the overlay is positioned relative to this div */
+}
+
+.about_us::before {
+  content: ""; /* This is necessary for the pseudo element to work */
+  position: absolute; /* Absolute positioning */
+  top: 0; /* Position the overlay at the top  */
+  left: 0; /* Position the overlay at the left */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+  z-index: 1; /* Lower z-index */
+}
+
+.about_us_center{
+  position: relative; /* Add relative positioning */
+  width: 80%;
+  margin: 0 auto;
+  z-index: 2; 
+}
+
+.about_us_center h1 {
+  Font-size: 50px;
+  line-height: 350px; 
+}
+
+
+
+
+/* Add styles for mobile menu from here */
+.mobile-menu-toggle {
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+  .mobile-menu-toggle {
+    display: block;
+    background-color: white;
+  }
+
+  .nav-list {
+    display: none;
+    background-color: white;
+  }
+
+  .nav-list-mobile-open {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 112px;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .nav-list-mobile-open div {
+    width: 150px;
+    margin: auto;
+  }
+
+  .nav-list-mobile-open div .search-form {
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .nav-list-mobile-open li {
+    display: block;
+    text-align: center;
+  }
+
+  .nav-list-mobile-open li:first-child {
+    font-size: 24px;
+  }
+
+  .nav-list-mobile-open li:not(:first-child) {
+    margin-top: 20px;
+  }
+
+  .nav-list-mobile-open li a {
+    font-size: 18px;
+  }
+}
+
+
+/* Products Page */
+
+.products_container{
+  margin-top: 20px;
+}
+
+.products_container h2{
+  text-align: center;
+}
+
+
+/* Card */
+
+.card {
+  margin: 15px 0 15px 0;
+  background-color: #f9fafb;
+  border: none;
+  box-shadow: 
+    0 1px 1px rgba(0, 0, 0, 0.06), 
+    0 2px 2px rgba(0, 0, 0, 0.06), 
+    0 4px 4px rgba(0, 0, 0, 0.06);
+}
+
+.card-body{
+  padding: 30px 20px 30px 20px;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.image-products {
+  height: 200px; 
+  width: 100%;
+  overflow: hidden; 
+  transition: transform 0.5s ease; 
+}
+
+.image-products:hover{
+  transform: scale(1.08); /* This line scales the image up by 20% on hover */
+}
+
+
+.img-fluid {
+  width: auto;
+  height: 200px; 
+  margin: auto; /* Add this line */
+  display: block; /* Add this line */
+}
+
+.card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 90%;  /* Or any value that fits your design */
+  display: block; /* Ensure it behaves like a block element */
+  padding-top:15px;
+
+}
+
+.card-title a
+{
+  text-decoration: none ;
+  color: inherit ;
+}
+
+.card-title a :hover  {
+  color: inherit ;
+}
+.card-text {
+  padding-top:5px;
+}
+
+.buttons {
+  height: 50px; /* adjust this value as needed */
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-info {
+  display: inline-block;
+  border: 1px solid #75bdf5;
+  border-radius: 7px;
+  text-decoration: none;
+  background-color: white;
+  color: #75bdf5;
+  cursor: pointer;
+  max-height:40px;
+  line-height: 40px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.more-info:hover{
+  background-color: #75bdf5;
+  cursor: pointer;
+  color: white;
+}
+
+.add-to-cart-button {
+  display: inline-block;
+  border: 1px solid #75bdf5;
+  border-radius: 7px;
+  padding: 5px 10px;
+  background-color: #75bdf5;
+  color: white;
+  cursor: pointer;
+  max-height:40px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.add-to-cart-button:hover {
+  background-color: white;
+  color: #75bdf5;
+}
+
+
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  height: 64px;
+  margin-top:20px;
+}
+
+footer p {
+  font-size: 16px;
+  color: #111827;
+}

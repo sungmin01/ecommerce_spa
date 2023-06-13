@@ -1,0 +1,103 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Apple iPhone 13 Pro Max",
+      "description": "The Apple iPhone 13 Pro Max features a stunning 6.7-inch Super Retina XDR display, A15 Bionic chip, and a ProMotion display with a 120Hz refresh rate. With its powerful triple camera system, including a 12MP ultra-wide lens, 12MP wide lens, and 12MP telephoto lens, you can capture stunning photos and videos in any situation.",
+      "price": 1099,
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-pro-max-01.jpg",
+      "category": "electronics",
+      "brand": "Apple",
+      "stock": 25,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S22 Ultra",
+      "description": "The Samsung Galaxy S22 Ultra features a massive 6.8-inch Dynamic AMOLED 2X display with a 120Hz refresh rate for smooth scrolling and gaming. Powered by the Exynos 2200 processor and a 108MP primary camera, this phone is designed for performance and high-quality photography. It also comes with the iconic S Pen for precise control and creativity.",
+      "price": 1199,
+      "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s22-ultra-5g-2.jpg",
+      "category": "electronics",
+      "brand": "Samsung",
+      "stock": 15,
+      "featured": false
+    },
+    {
+      "id": 3,
+      "name": "Sony WH-1000XM4 Wireless Noise-Canceling Headphones",
+      "description": "Experience industry-leading noise cancellation with the Sony WH-1000XM4 Wireless Headphones. These headphones feature dual noise sensor technology and a powerful QN1 processor to block out ambient noise, so you can enjoy your music without distractions. With up to 30 hours of battery life and comfortable ear pads, these headphones are perfect for long listening sessions.",
+      "price": 349,
+      "image": "https://m.media-amazon.com/images/I/51cEIlw5HoL.jpg",
+      "category": "electronics",
+      "brand": "Sony",
+      "stock": 45,
+      "featured": false
+    },
+    {
+      "id": 4,
+      "name": "Microsoft Surface Pro 8",
+      "description": "The Microsoft Surface Pro 8 is a versatile 2-in-1 laptop with a 13-inch PixelSense touchscreen display, Intel Core i5 processor, and 8GB RAM. With its detachable Type Cover and Surface Pen compatibility, you can easily switch between laptop and tablet modes to stay productive on the go. The Surface Pro 8 also features up to 15 hours of battery life.",
+      "price": 1199,
+      "image": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4P7Wb?ver=24e9&q=90&m=6&h=705&w=1253&b=%23FFFFFFFF&f=jpg&o=f&p=140&aim=true",
+      "category": "electronics",
+      "brand": "Microsoft",
+      "stock": 20,
+      "featured": false
+    },
+    {
+      "id": 5,
+      "name": "Bose SoundLink Revolve+ II",
+      "description": "The Bose SoundLink Revolve+ II is a portable 360° speaker that combines deep, powerful bass with stunning sound quality. With up to 17 hours of battery life, it is perfect for outdoor gatherings, picnics, and any event where you need immersive sound. The durable design features a water-resistant exterior and a convenient handle for easy transport.",
+      "price": 299.95,
+      "image": "https://i.rtings.com/assets/products/Q2ZVSu87/bose-soundlink-revolve-plus-ii/design-medium.jpg",
+      "category": "electronics",
+      "brand": "Bose",
+      "stock": 30,
+      "featured": true
+    },
+    {
+    "id": 6,
+    "name": "Adidas Originals NMD_R1 Shoes",
+    "description": "The Adidas Originals NMD_R1 Shoes are a stylish and comfortable addition to your wardrobe. Featuring a sleek design and a responsive Boost midsole, these shoes are perfect for everyday wear.",
+    "price": 130,
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/70e0529315dd4f9f8188aebe0104f9cf_9366/NMD_R1_Shoes_Black_GX9529_01_standard.jpg",
+    "category": "Shoes",
+    "brand": "Adidas",
+    "stock": 10,
+    "featured": true
+  },
+  {
+    "id": 7,
+    "name": "Levi's Men's 501 Original Fit Jeans",
+    "description": "The Levi's Men's 501 Original Fit Jeans are a classic and timeless addition to any wardrobe. Featuring a straight leg design and a button fly, these jeans are comfortable and stylish.",
+    "price": 69.5,
+    "image": "https://marks.scene7.com/is/image/marksp/18270_501-0193_PROD_1_47-1?bgColor=0,0,0,0&op_sharpen=1&resMode=sharp2&fmt=jpg&qlt=85,0&wid=460&hei=528",
+    "category": "Clothing",
+    "brand": "Levi's",
+    "stock": 20,
+    "featured": true
+  },
+  {
+    "id": 8,
+    "name": "Ralph Lauren Men's Classic Fit Polo Shirt",
+    "description": "The Ralph Lauren Men's Classic Fit Polo Shirt is a timeless and versatile addition to your wardrobe. Featuring a classic fit design and the iconic Ralph Lauren logo, this polo shirt is perfect for any occasion.",
+    "price": 89.5,
+    "image": "https://i.ebayimg.com/images/g/91QAAOSwqRFhGtn4/s-l500.jpg",
+    "category": "Home Decor",
+    "brand": "Ralph Lauren",
+    "stock": 25,
+    "featured": false
+  },
+  {
+    "id": 9,
+    "name": "Ralph Lauren Men's Classic Fit Polo Shirt",
+    "description": "The Ralph Lauren Men's Classic Fit Polo Shirt is a timeless and versatile addition to your wardrobe. Featuring a classic fit design and the iconic Ralph Lauren logo, this polo shirt is perfect for any occasion.",
+    "price": 89.5,
+    "image": "https://slimages.macysassets.com/is/image/MCY/products/4/optimized/18073464_fpx.tif?op_sharpen=1&wid=700&hei=855&fit=fit,1",
+    "category": "Clothing",
+    "brand": "Ralph Lauren",
+    "stock": 25,
+    "featured": false
+  }  
+  ]
+}    

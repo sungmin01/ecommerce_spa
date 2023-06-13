@@ -1,0 +1,118 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header_bottom{
+  height:0px;
+  background-color: #2a2a5a;
+  color: white !important;
+  font-size: 13px;
+  padding-left:12px;
+  line-height:30px;
+}
+
+.navbar-expand-lg{
+  height:50px;
+}
+.container-fluid{
+  height:50px;
+}
+
+.navbar-brand{
+  height:50px;
+}
+
+.navbar-expand-lg a{
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.navbar-expand-lg a:hover{
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #fff;
+  padding: 0 10px;
+  font-size: 13px;
+}
+
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.nav-search {
+  position: relative;
+  margin-left: 15px;
+}
+
+.nav-search input[type="text"] {
+  width: 100%;
+  padding: 5px 30px 5px 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.nav-search .nav-button {
+  position: absolute;
+  top: 40%;
+  right: 0px;
+  background-color: #f08804;
+  color: white;
+  transform: translateY(-40%);
+  width: 34px;
+  height: 34px;
+  border:none;
+}
+.carousel_1{
+  background-image: url( "https://m.media-amazon.com/images/I/61jovjd+f9L._SX3000_.jpg" );
+  background-repeat:no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height:200px;
+}
+
+.img-featured{
+  max-height:260px;
+}
+
+.img-product-details{
+  max-width: 500px;
+  max-height:350px;
+}
+
+.container_productdetails p{
+  font-size:14px;
+}
+
+.image-products .img-fluid{ 
+  max-height:260px;
+}
+
+.cart-count {
+  background-color: #f08804;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  height: 15px;
+  line-height: 15px;
+  position: absolute;
+  right: -8px;
+  text-align: center;
+  top: -8px;
+  width: 15px;
+}
+
