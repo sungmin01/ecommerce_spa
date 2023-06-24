@@ -50,7 +50,7 @@ const Home = () => {
                     smartphones. Choose from top brands and affordable options, with advanced features
                     to enhance your mobile experience.
                   </p>
-                  <button className="btn btn-primary">Shop Now</button>
+                  <button className="btn-carousel">Shop Now</button>
                 </div>
               </div>
   
@@ -82,7 +82,7 @@ const Home = () => {
                   Discover our wide range of laptops for all your computing needs. From ultrabooks to gaming laptops, 
                   our selection offers the perfect combination of power and portability for your lifestyle.
                   </p>
-                  <button className="btn btn-primary">Shop Now</button>
+                  <button className="btn-carousel">Shop Now</button>
                 </div>
               </div>
             </div>
@@ -113,7 +113,7 @@ const Home = () => {
                   Take your gaming experience to the next level with our high-performance graphics cards. 
                   Choose from top brands and the latest technology for smooth and fast gameplay.
                   </p>
-                  <button className="btn btn-primary">Shop Now</button>
+                  <button className="btn-carousel">Shop Now</button>
                 </div>
               </div>
             </div>
@@ -129,7 +129,7 @@ const Home = () => {
                 {featuredProducts.map((product) => (
                   <div className="col-md-4" key={product.id}>
 
-                    <div className="card">
+                    <div className="products_container_card">
                       <div className="card-body">
                         
                         <Link to={`/products/${product.id}`}>
@@ -143,7 +143,7 @@ const Home = () => {
                         <p className="card-text">Price: <span>${product.price}</span></p>
 
                         <div className="buttons">
-                        <Link className="more-info" to={`/products/${product.id}`}>more Info</Link>
+                        <Link className="more-info" to={`/products/${product.id}`}>More Info</Link>
 
                             <button
                               className="add-to-cart-button"
@@ -178,29 +178,45 @@ const Home = () => {
         </div>
 
       </div>
-
-      <div className="container_1">
+      
+      <div className="container why_chooose">
         <h1>Why Choose Us</h1>
-        <div className="sections">
-            <div className="section">
-                <h2>Worldwide Shipping</h2>
-                <p>We offer worldwide shipping to make our products accessible to customers all over the world.</p>
+        <div className="row sections">
+          <div className="col-lg-3 section">
+            <div className="card">
+              <div className="card-body">
+                <h2 className="card-title">Worldwide Shipping</h2>
+                <p className="card-text">We offer worldwide shipping to make our products accessible to customers all over the world.</p>
+              </div>
             </div>
-            <div className="section">
-                <h2>Best Quality</h2>
-                <p>We believe in providing our customers with only the best quality products.</p>
+          </div>
+          <div className="col-lg-3 section">
+            <div className="card">
+              <div className="card-body">
+                <h2 className="card-title">Best Quality</h2>
+                <p className="card-text">We believe in providing our customers with only the best quality products.</p>
+              </div>
             </div>
-            <div className="section">
-                <h2>Best Offers</h2>
-                <p>We pride ourselves on offering the best deals and discounts to our customers.</p>
+          </div>
+          <div className="col-lg-3 section">
+            <div className="card">
+              <div className="card-body">
+                <h2 className="card-title">Best Offers</h2>
+                <p className="card-text">We pride ourselves on offering the best deals and discounts to our customers.</p>
+              </div>
             </div>
-            <div className="section">
-                <h2>Secure Payments</h2>
-                <p>We offer a range of secure payment options to ensure that your transactions are safe and secure.</p>
+          </div>
+          <div className="col-lg-3 section">
+            <div className="card">
+              <div className="card-body">
+                <h2 className="card-title">Secure Payments</h2>
+                <p className="card-text">We offer a range of secure payment options to ensure that your transactions are safe and secure.</p>
+              </div>
             </div>
+          </div>
         </div>
-        
-    </div>
+      </div>
+
     </main>
   );
 };

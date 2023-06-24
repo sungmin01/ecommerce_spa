@@ -8,6 +8,7 @@ import Products from './components/Products';
 import ProductDetails from './components/ProductDetails';
 import Cart from './components/Cart';
 import SearchResults from './components/SearchResults';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 import data from './data.json';
 
@@ -84,7 +85,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
-          <Route path="/About" element={<About />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/products/:id" element={<ProductDetails />} />
           <Route path="/cart" element={<Cart />} />
           <Route

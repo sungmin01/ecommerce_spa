@@ -76,7 +76,7 @@ const Products = () => {
               {filteredProducts.map((product) => (
                 <div className="col-md-4" key={product.id}>
 
-                  <div className="card">
+                  <div className="products_container_card">
                     <div className="card-body">
                       
                       <Link to={`/products/${product.id}`}>
@@ -90,7 +90,7 @@ const Products = () => {
                       <p className="card-text">Price: <span>${product.price}</span></p>
 
                       <div className="buttons">
-                      <Link className="more-info" to={`/products/${product.id}`}>more Info</Link>
+                      <Link className="more-info" to={`/products/${product.id}`}>More Info</Link>
 
                           <button
                             className="add-to-cart-button"

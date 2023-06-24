@@ -55,6 +55,8 @@ nav ul li a {
   align-items: center;
 }
 
+/*Carousel */
+
 .carousel-caption {
   height: 150px;
   width: 80%;
@@ -87,6 +89,22 @@ nav ul li a {
 
 .carousel-control-next {
   right: 0;
+}
+
+.btn-carousel{
+  border:1px solid white;
+  border-radius:0;
+  background-color: transparent;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.btn-carousel:hover{
+  border:1px solid #38bdf8;
+  border-radius:0;
+  color: #38bdf8;
+  background-color: transparent;
 }
 
 
@@ -145,76 +163,58 @@ nav ul li a {
 }
 
 
+/*Why Choos Us*/
 
-
-
-/* why choose us  */
-.container_1 {
-  padding-top:20px;
-  width: 80%;
-  margin: auto;
-}
-
-.sections {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.section {
-  width: 20%;
-  margin-bottom: 20px;
-}
-
-h1 {
+.why_chooose h1 {
   font-size: 2em;
   text-align: center;
   margin-bottom: 40px;
 }
 
-h2 {
+.why_chooose h2 {
   font-size: 1.5em;
   margin-bottom: 10px;
+  text-align: center;
+}
+.why_chooose p{
+  text-align: center;
 }
 
-p {
-  margin-bottom: 10px;
+.why_chooose {
+  padding-top:20px;
+}
+
+.why_chooose .card{
+  border:none;
+  background-color: #f3f4f6;
+  color:#374151;
+  margin-bottom:10px;
 }
 
 
 
-/* team  */
-.team {
+/*  team */
+
+.our_team {
   text-align: center;
   margin-top: 50px;
 }
 
-.team h1 {
+.our_team h1 {
   font-size: 2em;
   color: #333;
 }
 
-.team p {
+.our_team p {
   color: #666;
   margin-bottom: 50px;
 }
 
-.team-member {
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin-bottom: 20px;
-  display: inline-block;
-  width: calc(100% / 3 - 40px);
-  box-sizing: border-box;
-}
-
-.team-member h2 {
-  font-size: 1.2em;
-  color: #333;
-}
-
-.team-member p {
-  color: #666;
+.our_team .card{
+  border:none;
+  background-color: #f3f4f6;
+  color:#374151;
+  margin-bottom:10px;
 }
 
 
@@ -270,13 +270,32 @@ p {
 
 .shop-now {
   margin-top: 20px;
-  background-color: #4CAF50;
+  background-color: #38bdf8;
   color: white;
-  padding: 12px 20px;
+  padding: 12px 40px;
   border: none;
-  border-radius: 4px;
+  border-radius: 20px;
   cursor: pointer;
 }
+
+.cart_page{
+ width:80%;
+ margin:0 auto
+}
+
+.cart_table{
+
+
+}
+
+.empty_text{
+  padding-top:20px;
+}
+
+
+
+
+
 
 .about_us{
     width: 100%;
@@ -386,7 +405,7 @@ p {
 
 /* Card */
 
-.card {
+.products_container_card {
   margin: 15px 0 15px 0;
   background-color: #f9fafb;
   border: none;
@@ -396,15 +415,15 @@ p {
     0 4px 4px rgba(0, 0, 0, 0.06);
 }
 
-.card-body{
+.products_container_card .card-body{
   padding: 30px 20px 30px 20px;
 }
 
-.card {
+.products_container_card {
   transition: transform 0.3s ease;
 }
 
-.card:hover {
+.products_container_card:hover {
   transform: scale(1.05);
 }
 

@@ -33,12 +33,12 @@ const Cart = () => {
   };
 
   return (
-    <div>
+    <div className="cart_page">
       {state.cart.length === 0 ? (
-        <p>Your cart is empty.</p>
+        <p className="empty_text">Your cart is empty.</p>
       ) : (
         <>
-          <table className="table">
+          <table className="table cart_table">
             <thead>
               <tr>
                 <th scope="col">Product Name</th>

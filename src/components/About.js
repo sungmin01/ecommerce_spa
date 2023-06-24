@@ -6,39 +6,68 @@ const About = () => {
  
   return (
     <div className="container_about">
-    <div class="about_us">
-      <div class="about_us_center">
-          <h1>About Us</h1>
+      <div class="about_us">
+        <div class="about_us_center">
+            <h1>About Us</h1>
+        </div>
       </div>
-    </div>
-    <div className="team">
+      <div className="container our_team">
         <h1>Our Team</h1>
         <p>We are comprised of experienced individuals with a passion for technology and commitment to customer satisfaction.</p>
-        <div className="team-member">
-          <h2>Harvey Spector</h2>
-          <p>Founder - CEO</p>
+        <div className="row">
+          <div className="col-md-4">
+            <div className="card">
+              <div className="card-body">
+                <h2 className="card-title">Harvey Spector</h2>
+                <p className="card-text">Founder - CEO</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card">
+              <div className="card-body">
+                <h2 className="card-title">Jessica Pearson</h2>
+                <p className="card-text">COO</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card">
+              <div className="card-body">
+                <h2 className="card-title">Rachel Zain</h2>
+                <p className="card-text">Marketing Head</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="team-member">
-          <h2>Jessica Pearson</h2>
-          <p>COO</p>
-        </div>
-        <div className="team-member">
-          <h2>Rachel Zain</h2>
-          <p>Marketing Head</p>
-        </div>
-        <div className="team-member">
-          <h2>Luise Litt</h2>
-          <p>Lead Developer</p>
-        </div>
-        <div className="team-member">
-          <h2>Katrina Bennett</h2>
-          <p>Intern Designer</p>
-        </div>
-        <div className="team-member">
-          <h2>Mike Ross</h2>
-          <p>Intern Designer</p>
+        <div className="row">
+          <div className="col-md-4">
+            <div className="card">
+              <div className="card-body">
+                <h2 className="card-title">Luise Litt</h2>
+                <p className="card-text">Lead Developer</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card">
+              <div className="card-body">
+                <h2 className="card-title">Katrina Bennett</h2>
+                <p className="card-text">Intern Designer</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card">
+              <div className="card-body">
+                <h2 className="card-title">Mike Ross</h2>
+                <p className="card-text">Intern Designer</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
     </div>
     );
 };
